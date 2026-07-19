@@ -1,12 +1,15 @@
 import json
+from pathlib import Path
 from backend.agents import reason_about_adherence, generate_weekly_insight
 from backend.guardrails import check_emergency, emergency_response, scope_check
 
-KB_PATH = "knowledge_base"
+# Points to the project root, then into knowledge_base/
+# __file__ = orchestrator.py → .parent = backend/ → .parent = project root
+KB_PATH = Path(__file__).parent.parent / "knowledge_base"
 
 
 def _load(name):
-    with open(f"{KB_PATH}/{name}") as f:
+    with open(KB_PATH / name) as f:
         return json.load(f)
 
 
