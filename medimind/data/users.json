@@ -1,6 +1,6 @@
  {
   "robert": {
-    "name": "Robert",
+    "name": "Martin",
     "age": 68,
     "persona": "elderly",
     "conditions": ["diabetes_type2", "hypertension"],
@@ -9,7 +9,7 @@
     "history": []
   },
   "maria": {
-    "name": "Maria",
+    "name": "Peter",
     "age": 55,
     "persona": "skeptical",
     "conditions": ["high_cholesterol"],
