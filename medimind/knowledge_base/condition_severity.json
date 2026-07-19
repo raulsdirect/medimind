@@ -1,0 +1,6 @@
+{
+  "diabetes_type2": {"severity_weight": 4},
+  "hypertension": {"severity_weight": 4},
+  "high_cholesterol": {"severity_weight": 2},
+  "atrial_fibrillation": {"severity_weight": 5}
+}

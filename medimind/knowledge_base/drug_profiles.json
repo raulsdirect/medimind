@@ -1,0 +1,32 @@
+{
+  "metformin": {
+    "class": "antidiabetic",
+    "criticality": 3,
+    "timing": "with meals",
+    "notes": "Take with food to reduce stomach upset."
+  },
+  "insulin": {
+    "class": "antidiabetic",
+    "criticality": 5,
+    "timing": "before meals",
+    "notes": "Critical. Missing doses can cause dangerous blood sugar spikes."
+  },
+  "lisinopril": {
+    "class": "ace_inhibitor",
+    "criticality": 4,
+    "timing": "morning",
+    "notes": "Blood pressure control. Missing raises stroke/heart risk."
+  },
+  "atorvastatin": {
+    "class": "statin",
+    "criticality": 2,
+    "timing": "evening",
+    "notes": "Cholesterol control. Muscle aches are a known side effect."
+  },
+  "warfarin": {
+    "class": "anticoagulant",
+    "criticality": 5,
+    "timing": "evening",
+    "notes": "Critical. Missing or doubling doses is dangerous."
+  }
+}

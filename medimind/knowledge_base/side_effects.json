@@ -1,0 +1,17 @@
+{
+  "atorvastatin": {
+    "common": ["muscle aches", "headache", "digestive issues"],
+    "guidance": "Muscle aches are common and often manageable. A doctor can adjust the type or dose.",
+    "escalate_if": ["severe muscle pain", "dark urine", "weakness"]
+  },
+  "metformin": {
+    "common": ["nausea", "diarrhea", "stomach upset"],
+    "guidance": "Taking with food usually helps. These often fade over weeks.",
+    "escalate_if": ["persistent vomiting", "extreme fatigue"]
+  },
+  "lisinopril": {
+    "common": ["dry cough", "dizziness"],
+    "guidance": "A persistent dry cough can be discussed with your doctor for alternatives.",
+    "escalate_if": ["swelling of face/lips", "difficulty breathing"]
+  }
+}

@@ -1,0 +1,20 @@
+ {
+  "robert": {
+    "name": "Robert",
+    "age": 68,
+    "persona": "elderly",
+    "conditions": ["diabetes_type2", "hypertension"],
+    "medications": ["metformin", "lisinopril", "insulin"],
+    "caregiver": "Sarah",
+    "history": []
+  },
+  "maria": {
+    "name": "Maria",
+    "age": 55,
+    "persona": "skeptical",
+    "conditions": ["high_cholesterol"],
+    "medications": ["atorvastatin"],
+    "caregiver": null,
+    "history": []
+  }
+}

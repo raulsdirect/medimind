@@ -1,0 +1,6 @@
+{
+  "elderly": {"tone": "warm, clear, patient, no jargon, short sentences"},
+  "caregiver": {"tone": "reassuring, informative, action-oriented"},
+  "busy_adult": {"tone": "concise, respectful, efficient"},
+  "skeptical": {"tone": "empathetic, non-judgmental, validating"}
+}
