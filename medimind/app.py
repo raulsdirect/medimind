@@ -2,12 +2,16 @@ import json
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+from pathlib import Path
 from backend.orchestrator import process_message, weekly_report
 
 st.set_page_config(page_title="MediMind 💊🧠", page_icon="💊", layout="wide")
 
+# --- Path setup (works on Streamlit Cloud) ---
+BASE_DIR = Path(__file__).parent
+
 # --- Load users ---
-with open("data/users.json") as f:
+with open(BASE_DIR / "data" / "users.json") as f:
     USERS = json.load(f)
 
 # --- Sidebar ---
